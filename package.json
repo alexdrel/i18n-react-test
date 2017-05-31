@@ -1,0 +1,24 @@
+{
+  "name": "i18n-react-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 1819"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^0.14.57",
+    "@types/react-dom": "^0.14.23",
+    "i18n-react": "^0.3.0",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.3.4",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  }
+}
