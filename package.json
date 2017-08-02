@@ -9,16 +9,16 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "i18n-react": "^0.4.0",
+    "react": "^16.0.0-beta.2",
+    "react-dom": "^16.0.0-beta.2"
   },
   "devDependencies": {
-    "@types/react": "^0.14.57",
-    "@types/react-dom": "^0.14.23",
-    "i18n-react": "^0.3.0",
-    "ts-loader": "^0.8.2",
-    "typescript": "^2.3.4",
-    "webpack": "^1.15.0",
-    "webpack-dev-server": "^1.16.5"
+    "@types/react": "^15.6.0",
+    "@types/react-dom": "^15.5.1",
+    "ts-loader": "^2.3.2",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
   }
 }

@@ -8,11 +8,12 @@ module.exports = {
     filename: "[name].js",
   },
   resolve: {
-    extensions: ['', '.js', '.tsx'],
+    extensions: [ '.js', '.tsx'],
+    modules: [  __dirname +'/node_modules' ],
   },
   module: {
     loaders: [
-      { test: /\.tsx?$/, loader: 'ts' }
+      { test: /\.tsx?$/, loader: 'ts-loader' }
     ]
   }
 }
